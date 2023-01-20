@@ -1,0 +1,129 @@
+body {
+    background-color: #6699CC;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+.selector-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selector-buttons button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 5vh 10vw;
+    margin: 5%;
+    background-color: #4D00FF;
+    box-shadow: 0 10px #3100A5;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.selector-buttons button:hover {
+    background-color: #30009F;
+    box-shadow: 0 10px #230075;
+}
+
+.selector-buttons button:active {
+    transform: translateY(10px);
+    box-shadow: 0 0 #230075;
+}
+
+.form-container {
+    display: block;
+    text-align: center;
+}
+
+.form-container form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form-container label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.form-container input[type=text] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #252525;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+    transition: 0.3s;
+    padding: 2vh 4vw;
+}
+
+.form-container input[type=text]:focus {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+    outline: none;
+}
+
+#calculate {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 15px;
+    margin-left: 5%;
+    background-color: #4D00FF;
+    box-shadow: 0 10px #3100A5;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#calculate:hover {
+    background-color: #30009F;
+    box-shadow: 0 10px #230075;
+}
+
+#calculate:active {
+    transform: translateY(10px);
+    box-shadow: 0 0 #230075;
+}
+
+.output {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: #252525;
+    background-color: #fff;
+    margin-top: 10%;
+    padding: 2rem;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.item h2 {
+    font-size: 1.7rem;
+}
+
+.item h3 {
+    font-size: 1.4rem;
+}
+
+.item:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
